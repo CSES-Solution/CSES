@@ -1,0 +1,43 @@
+
+
+/*Subham*/
+#include<bits/stdc++.h>
+#define rep(i,n) for(long long int i=0;i<n;i++)
+#define loop(i,s,n) for(long long int i=s;i<n;i++)
+#define lli long long int
+#define ll long long 
+#define dd double
+#define endl "\n"
+#define mod 1000000007
+#define pb push_back
+#define fast ios_base::sync_with_stdio(false);cin.tie(NULL);
+#define limit 1000000000000000000
+const double pi=3.14159265358;
+ 
+using namespace std;
+ 
+int main()
+{
+	fast
+	lli n;
+	cin>>n;
+	cout<<n<<" ";
+	while(n>1)
+	{
+		if(n%2==0)
+		{
+			cout<<n/2<<" ";
+			n/=2;
+		}
+		else
+		{
+			n=n*3+1;
+			cout<<n<<" ";
+			
+		}
+		
+	}
+//	cout<<n<<endl;
+	
+	
+}
